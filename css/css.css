@@ -1,0 +1,333 @@
+body,h2,h3,h4,a,span,em,ul,ol,img,p,dl,dt,dd{
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑';
+	color: #000;
+	font-size: 12px;
+}
+h2,h3,h4{
+	font-style: normal;
+}
+em{
+	font-style: normal;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.gwidth{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* ----------------------------  header开始         --------------------- */
+#header{
+	background: url('../image/head1.png') repeat-x;
+	height: 40px;
+}
+.head_r{
+	padding-top: 12px;
+	float: right;
+}
+.head_r img{
+  padding-left: 14px;
+	float: left;
+}
+.head_r .sousuo{
+	width: 183px;
+	border-bottom: 2px solid #FFB243;
+	float: left;
+	margin-left: 23px;
+}
+.sousuo p{
+	line-height: 12px;
+	padding-top: 1px;
+	padding-bottom: 9px;
+  color: #fff;
+  background: url('../image/head4.png') right center no-repeat;
+}
+/* ----------------------------  header结束     --------------------------- */
+/* -------------------------------  nav开始           --------------------------------- */
+#nav{
+	height: 100px;
+	background-color: #FFFFFF;
+}
+.n_l{
+	float: left;
+}
+.n_l img{
+	padding: 24px 0;
+}
+.n_r{
+	font-size: 0;
+	float: right;
+}
+.n_r .act,.n_r a:hover{
+  background: url('../image/nav.png') no-repeat;
+	color: #FFFFFF;
+}
+.n_r a{
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	width: 105px;
+	display: inline-block;
+	line-height: 100px;
+}
+/* -------------------------------  nav结束           --------------------------------- */
+/* --------------------------------  banner开始              ------------------------------ */
+#banner1{
+ background: url('../image/banner.png');
+ background-size: 100% 100%;
+ height: 455px;
+}
+.banner1{
+	position: relative;
+}
+.fangkuai{
+	position: absolute;
+	top: 50px;left: 583px;
+}
+/* --------------------------------  banner结束              ------------------------------ */
+/*-------------------------------- banner2  开始----------------------------------*/
+#banner2{
+	background-color: #F6F6F6;
+	height: 300px;
+}
+.yiyang{
+	float: left;
+	width: 312px;
+	height: 301px;
+	margin-right: 32px;
+	text-align: center;
+	margin-top: -32px;
+}
+.yiyang:last-child{
+	margin-right: 0;
+}
+.yiyang img{
+	padding-top: 58px;
+	margin:0 auto;
+}
+.a1,.yiyang:hover .b1{
+	background-color: #fff;
+}
+.a1,.b1{
+	height: 216px;
+}
+.b1{
+	background-color: #2361AD;
+}
+.a{
+	width: 248px;
+	height: 1px;
+	background-color: #CCCCCC;
+	margin: 0 auto;
+}
+.biaoqian a{
+	width: 312px;
+	display: inline-block;
+	height: 84px;
+	line-height: 84px;
+	font-size: 18px;
+	color: #434343;
+	background-color: #fff;
+}
+
+/* -------------------------------- banner2 结束---------------------------------- */
+/* --------------------------------  main1        -------------------------------------- */
+.biaoti{
+	height: 76px;
+	line-height: 76px;
+	background: url('../image/main.png') no-repeat right center;
+}
+.biaoti h3,.biaoti em{
+ font-size: 20px;
+}
+.biaoti h3{
+  width: 235px;
+	color: #2361AD;;
+}
+.biaoti h3 em{
+	padding-left: 25px;
+	color: #999999;
+}
+.teb li{
+float: left;
+}
+.hangye{
+	width: 65px;
+	height: 334px;
+	text-align: center;
+	float: left;
+}
+.hangye a{
+	display: inline-block;
+	padding-top: 94px;
+	width: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+.c1{
+	background-color: #00007F;
+}
+.c2{
+	background-color: #EE8800;
+}
+.c3{
+	background-color: #7F7F00;
+}
+.c4{
+	background-color: #2361AD;
+}
+.teb li{
+	cursor: pointer;
+}
+/* .teb li:hover .hyxx{
+	display: block;
+} */
+/* .hyxx,.teb li .act{
+	display: none;
+	float: left;
+} */
+.teb li .act{
+	float: left;
+}
+.hyxx img,.teb li .act img{
+	float: left;
+}
+.hyxx .list,.teb li .act .list {
+	width: 400px;
+	float: left;
+	padding: 0 14px;
+}
+.hyxx .list li,.teb li .act .list li{
+	width: 400px;
+	text-align: right;
+	line-height: 30px;
+	background: url('../image/xiaofangkuai.png') left center no-repeat;
+	padding-left: 6px;
+}
+.hyxx .list li a,.teb li .act .list li a{
+	float: left;
+	color: #272727;
+}
+/* --------------------------------  main2        -------------------------------------- */
+#main2{
+	background-color: #F9F9F9;
+}
+.m2_l,.m2_r{
+	float: left;
+}
+.zhong img{
+	float: left;
+	padding-left: 22px;
+	padding-right: 28px;
+}
+.gsnew{
+	width: 468px;
+}
+.gsnew h4{
+	line-height: 14px;
+}
+.gsnew h4 a{
+	font-size: 14px;
+	color: #656565;
+}
+.gsnew p{
+	font-size: 12px;
+	color: #777777;
+	line-height: 22px;
+	margin-bottom: 10px;
+	margin-top: 14px;
+}
+.gsnew .border{
+		border-bottom: 1px dashed #999999;
+		width: 459px;
+		margin-bottom: 30px;
+}
+/* ----------------------------------------------------  main3  ------------------------------------------------ */
+#main3{
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #E7E7E7;
+}
+.hzhb{
+	margin-bottom: 35px;
+}
+.hzhb li{
+	float: left;
+	margin-right: 70px;
+}
+.hzhb li:last-child{
+	margin-right: 0;
+}
+/* ---------------------------------------------------  main4  -------------------------------------------------------------- */
+#main4{
+	background: url('../image/diwen.png') repeat-y;
+	background-size: 100% 100%;
+	height: 265px;
+}
+.m4_t{
+	height: 188px;
+	border-bottom: 1px solid #E7E7E7;
+	}
+.m4_t dl{
+	float: left;
+	margin-right: 150px;
+}
+.m4_t dl:last-child{
+	margin-right: 0;
+}
+dt{
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 11px;
+}
+dd{
+line-height: 30px;
+}
+.d1,.d2,.d3{
+	padding-left: 30px;
+}
+.d1{
+	background: url('../image/dianhua.png') no-repeat left center;
+}
+.d2{
+	background: url('../image/xinfeng.png') no-repeat left center;
+}
+.d3{
+	background: url('../image/weixing.png') no-repeat left center;
+}
+.m4_b p{
+	padding-top: 18px;
+	padding-bottom: 40px;
+	font-size: 18px;
+	line-height: 18px;
+}
+.m4_b p a{
+	margin-right: 16px;
+}
+/* ------------------------------------------- 内容区结束 ----------------------------------- */
+/* ---------------------------------------------  底部开始              --------------------------------------- */
+#footer{
+	text-align: center;
+	background: url('../image/footer.png');
+	height: 65px;
+}
+#footer p{
+	line-height: 65px;
+}
+#footer p a{
+	color: #9F9F9F;
+}
+/* ---------------------------------------------  底部结束             --------------------------------------- */
